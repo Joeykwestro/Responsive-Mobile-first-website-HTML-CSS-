@@ -1,0 +1,91 @@
+body{
+	background-color: lightgrey;
+	margin: 10px;
+}
+
+#allcontainer{
+	width: 100vw;
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+}
+
+#seccontainer{
+	width: 100vw;
+	padding-top: 20px;
+}
+
+#menucontainer{
+	width: 95vw;
+	background-color: gold;
+	height: 10vw;
+	margin: 0 auto;
+	display: block;
+}
+
+#logo{
+	width: 40vw;
+}
+
+#img1{
+	display: block;
+	margin: 0 auto;
+	width: 70vw;
+}
+
+h2{
+	margin: 50px;
+	font-size: 32px;
+}
+
+p{
+	margin: 30px;
+	font-size: 18px;
+}
+
+#proefles{
+	background-color: gold;
+	font-size: 50px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 50vw;
+}
+
+i{
+	font-size: 50px;
+	position: absolute;
+	padding: 5px;
+	border: 1px solid grey;
+}
+
+#menuitem{
+	font-size: 9vw;
+}
+
+@media screen and (max-width: 450px){
+	#proefles{
+		display: none;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	#img1{
+		width: 100vw;
+	}
+
+	#logo{
+		width: 60vw;
+	}
+
+	#menucontainer{
+		width: 100vw;
+	}
+
+	body{
+		background-color: white;
+		margin: 0;
+	}
+}
